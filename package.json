@@ -1,0 +1,22 @@
+{
+  "name": "glow-up",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinzavier/Glow-Up.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevinzavier/Glow-Up/issues"
+  },
+  "homepage": "https://github.com/kevinzavier/Glow-Up#readme",
+  "devDependencies": {
+    "express": "^4.14.1"
+  }
+}
