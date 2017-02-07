@@ -1,2 +1,1 @@
-# Glow-Up
-for cse110
+# Glow-Up Mobile Web App
