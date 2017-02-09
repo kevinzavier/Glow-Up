@@ -16,6 +16,22 @@ app.get('/profile', function (req, res) {
   res.render('profile')
 })
 
+app.get('/time', function (req, res) {
+  res.render('time')
+})
+
+app.get('/style', function (req, res) {
+  res.render('style')
+})
+
+app.get('/occasion', function (req, res) {
+  res.render('occasion')
+})
+
+app.get('/glowup', function (req, res) {
+  res.render('glowup')
+})
+
 app.listen(port, function () {
   console.log('Example app listening on port 3000!')
 })
