@@ -18,5 +18,8 @@
   "homepage": "https://github.com/kevinzavier/Glow-Up#readme",
   "devDependencies": {
     "express": "^4.14.1"
+  },
+  "dependencies": {
+    "ejs": "^2.5.5"
   }
 }
