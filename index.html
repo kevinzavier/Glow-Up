@@ -33,18 +33,33 @@
 
   <body>
   	<!--trying to create a person icon at top of screen-->
-  	<div class="w3-container">
-    		<i class="material-icons">person</i>
+  	<div id='#navbar' class="w3-container">
+    	<button id="profile-button" type="button" class="btn btn-secondary"><i class="material-icons">person</i></button> 
     </div>
+
+    <!--center buttons-->
+    &nbsp;
+  	<center>
+  		<a href="#aboutModal" data-toggle="modal" data-target="#myModal" class="btn btn-circle-lg btn-default"> <p>TIME</p></a>
+ 	</center>
+ 	&nbsp;
+ 	<center>
+ 		<a href="#aboutModal" data-toggle="modal" data-target="#myModal" class="btn btn-circle-lg btn-default"> <p>OCCASION</p></a>
+ 	</center>
+ 	&nbsp;
+ 	<center>
+ 		<a href="#aboutModal" data-toggle="modal" data-target="#myModal" class="btn btn-circle-lg btn-default"> <p>STYLE</p></a>
+ 	</center>
+
 
     <!--align GlowUp! in bottom center-->
     <div style="position: relative; text-align: center">
     	<h1>
-      		<p style="position: fixed; bottom: 0; width:100%;">GlowUp!</p>
+      		<p style="position: fixed; bottom: 0; width:100%;"><button type="button" class="btn btn-default">GlowUp!</button></p>
       	</h1>
     </div>
 
-    
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
