@@ -12,8 +12,8 @@ app.get('/', function(req, res) {
   res.render('index')
 });
 
-app.get('/profile/:id', function (req, res) {
-  res.send('<html><head><link href=assets/styles.css type=text/css rel=stylesheet/></head><body><h1>'+ req.params.id + '</h1></body></html>')
+app.get('/profile', function (req, res) {
+  res.render('profile')
 })
 
 app.listen(port, function () {
