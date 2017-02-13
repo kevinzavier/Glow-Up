@@ -8,6 +8,10 @@
   border-radius: 100%;
 }
 
+.material-icons {
+    vertical-align: -14%
+}
+
 .btn-default {
   width: 180px;
   font-size: 30px;

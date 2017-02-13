@@ -32,6 +32,10 @@ app.get('/glowup', function (req, res) {
   res.render('glowup')
 })
 
+app.get('/login', function (req, res) {
+  res.render('login')
+})
+
 app.listen(port, function () {
   console.log('App is running on port 3000')
 })
