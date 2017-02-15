@@ -1,0 +1,16 @@
+{
+	"input": [
+		{
+			"foundation": "no",
+			"concealer": "no",
+			"eyeliner": "no",
+			"blush": "no",
+			"mascara": "no",
+			"lipstick": "none",
+			"eyeshadow": "none",
+			"time": "night",
+			"occasion": "date",
+			"style": "glamorous"
+		}
+	]
+}
