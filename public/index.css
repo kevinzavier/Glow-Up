@@ -1,34 +1,23 @@
-.btn-circle-lg {
-  width: 140px;
-  height: 140px;
-  text-align: center;
-  padding: 13px 0;
-  font-size: 30px;
-  line-height: 2.00;
+#main-button {
+  width: 200px;
+  height: 200px;
   border-radius: 100%;
-}
-
-.btn-default {
-  width: 180px;
-  font-size: 30px;
+  margin-top: 40%;
 }
 
 .btn-secondary {
   font-size: 30px;
 }
 
-#navbar {
-   text-align:center;
+.header {
+  text-align: center;
 }
-
 #profile-button {
   /*for 375x612 */
-  margin-left: 44%;
+  color: black;
+  font-size: 30px;
 }
 
-p {
-  margin: 30px 10px 5px 7px;
-}
 body{
   font-family: Arial, sans-serif;
 }
