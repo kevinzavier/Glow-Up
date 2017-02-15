@@ -16,7 +16,7 @@
 	<!--stuff for the person icon-->
 	<!--<link rel="stylesheet" href="/lib/w3.css">-->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-	<link rel="stylesheet" href="../public/time.css">
+	<link rel="stylesheet" href="../public/occasion.css">
 	<style>
 	.material-icons {
 		vertical-align: -14%;
@@ -26,24 +26,36 @@
 
 <body>
 	<div class="header">
+		<a role="button" href="time.html">
+			<span class="glyphicon glyphicon-arrow-left" id="left-arrow"></span>
+		</a>
+		<h3 id="header-title"> Occasion </h3>
 		<a role="button" href="home.ejs">
 			<span class="glyphicon glyphicon-home" id="home"></span>
 		</a>
-		<h3 id="header-title"> Time </h3>
 	</div>
 	<div class="btn-group" data-toggle="buttons">
 		<label class="btn btn-primary btn-lg btn-block full-width">
-			<input type="radio" name="options" id="option1" autocomplete="off" checked> Morning
+			<input type="radio" name="options" id="option1" autocomplete="off" checked> Date
 		</label>
 		<label class="btn btn-primary btn-lg btn-block full-width">
-			<input type="radio" name="options" id="option2" autocomplete="off"> Afternoon
+			<input type="radio" name="options" id="option2" autocomplete="off"> Concert
 		</label>
 		<label class="btn btn-primary btn-lg btn-block full-width">
-			<input type="radio" name="options" id="option3" autocomplete="off"> Night
+			<input type="radio" name="options" id="option3" autocomplete="off"> School
+		</label>
+		<label class="btn btn-primary btn-lg btn-block full-width">
+			<input type="radio" name="options" id="option3" autocomplete="off"> Work
+		</label>
+		<label class="btn btn-primary btn-lg btn-block full-width">
+			<input type="radio" name="options" id="option3" autocomplete="off"> Formal
+		</label>
+		<label class="btn btn-primary btn-lg btn-block full-width">
+			<input type="radio" name="options" id="option3" autocomplete="off"> Party
 		</label>
 	</div>
 	<footer>
-		<a href = "occasion.html">
+		<a href = "style.html">
 			<button class ="btn btn-primary btn-lg btn-block full-width">Next</button>
 		</a>
 	</footer>
