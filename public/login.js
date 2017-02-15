@@ -12,22 +12,27 @@ function initializePage() {
 
 function login(){
   //get elements
-  const txtEmail = document.getElementById('username');
-  const txtPassword = document.getElementById('password');
-  const btnLogin = document.getElementById('login');
-  const btnSignup = document.getElementById('signup');
+  const txtEmail = document.getElementById('txtEmail');
+  const txtPassword = document.getElementById('txtPassword');
+  const btnLogin = document.getElementById('btnLogin');
+  const btnSignup = document.getElementById('btnSignup');
+	const btnLogout = document.getElementById('btnLogout');
 
-  btnSignup.addEventListener('click', e => {
-    window.location.replace('http://www.google.com');
-    console.log("dsadsd   aasd");
-  })
+	//Add login event
+	btnLogin.addEventListener('click', e => {
+		const email = txtEmail.value;
+		const pass = txtPassword.value;
+		const auth = firebase.auth();
+		const promise = auth.signInWithEmailAndPassword(email, pass);
+		promise.catch(e => console.log(e.message));
+	});
 
-  btnLogin.addEventListener('click', e => {
-    const email = txtEmail.value;
-    const pass = txtPassword.value;
-    const auth = firebase.auth();
-    const promise = auth.signInWithEmailAndPassword(email, pass);
-    promise.catch(e => console.log(e.message))
-  })
-
+	btnSignup.addEventListener('click', e =>{
+		//TODO for email and pass requirements
+		const email = txtEmail.value;
+		const pass = txtPassword.value;
+		const auth = firebase.auth();
+		const promise = auth.createUserWithEmailAndPassword(email, pass);
+		promise.catch(e => console.log(e.message));
+	});
 }
