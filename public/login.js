@@ -33,6 +33,24 @@ function login(){
 		const pass = txtPassword.value;
 		const auth = firebase.auth();
 		const promise = auth.createUserWithEmailAndPassword(email, pass);
-		promise.catch(e => console.log(e.message));
+
+		promise
+			.catch(e => console.log(e.message));
+	});
+
+	btnLogout.addEventListener('click', e=> {
+		firebase.auth().signOut();
+	})
+
+	//add realtime listener
+	firebase.auth().onAuthStateChanged(firebaseUser => {
+		if(firebaseUser){
+			console.log(firebaseUser);
+			btnLogout.classList.remove('hide');
+		}
+		else{
+			console.log("not logged in");
+			btnLogout.classList.add('hide');
+		}
 	});
 }
