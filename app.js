@@ -11,8 +11,10 @@ app.engine('handlebars', handlebars());
 app.set('view engine', 'handlebars');
 
 app.get('/', function(req, res) {
-  res.render('home')
+  res.render('login')
 });
+
+
 
 app.get('/profile', function (req, res) {
   res.render('profile')
@@ -39,8 +41,8 @@ app.get('/signup', function (req, res) {
 })
 
 
-app.get('/login', function (req, res) {
-  res.render('login')
+app.get('/home', function (req, res) {
+  res.render('home')
 })
 
 app.listen(port, function () {
