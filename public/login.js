@@ -3,6 +3,8 @@ $(document).ready(function() {
   login();
 })
 
+
+
 /*
  * Function that is called when the document is ready.
  */
