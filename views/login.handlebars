@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <% include partials/head.ejs %>
+  <script src="assets/login.js"></script>
+  <link href="assets/login.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+  <div class="container">
+    <input id="txtEmail" type="email" placeholder="Email" />
+
+    <input id="txtPassword" type="password" placeholder="Password" />
+    <br />
+
+    <button id="btnLogin" class="btn btn-primary">Login</button>
+    <button id="btnSignup" class="btn btn-secondary">Sign Up</button>
+    <button id="btnLogout" required class="btn btn-primary hide">Log out</button>
+    <a id="goHome" href="/" hide >Got Home!</a>
+
+
+  </div>
+
+
+</body>
+
+</html>

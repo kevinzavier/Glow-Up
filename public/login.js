@@ -17,6 +17,7 @@ function login(){
   const btnLogin = document.getElementById('btnLogin');
   const btnSignup = document.getElementById('btnSignup');
 	const btnLogout = document.getElementById('btnLogout');
+	const goHome = document.getElementById('goHome');
 
 	//Add login event
 	btnLogin.addEventListener('click', e => {
@@ -47,10 +48,12 @@ function login(){
 		if(firebaseUser){
 			console.log(firebaseUser);
 			btnLogout.classList.remove('hide');
+			goHome.classList.remove('hide');
 		}
 		else{
 			console.log("not logged in");
 			btnLogout.classList.add('hide');
+			goHome.classList.add('hide');
 		}
 	});
 }

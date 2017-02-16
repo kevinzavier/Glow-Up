@@ -1,6 +1,6 @@
 var data = require("data.json");
 
-exports.addData = function(req, res) {    
+exports.addData = function(req, res) { 
 	// Your code goes here
 	console.log("addData called");
 
@@ -23,10 +23,13 @@ exports.addData = function(req, res) { 
 		'mascara': mascara,
 		'lipstick': lipstick,
 		'eyeshadow': eyeshadow,
-		'time': time, 
+		'time': time,
 		'occasion': occasion,
 		'style': style
 	}
 
 	data.input.push(newData);
  }
+
+
+{{results.style}}
