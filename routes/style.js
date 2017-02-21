@@ -1,4 +1,4 @@
-var data = require("data.json");
+var data = require("../data.json");
 
 exports.addData = function(req, res) { 
 	// Your code goes here
@@ -16,20 +16,17 @@ exports.addData = function(req, res) { 
 	var style = req.query.style;
 
 	var newData = {
-		'foundation': foundation,
-		'concealer': concealer,
-		'eyeliner': eyeliner,
-		'blush': blush,
-		'mascara': mascara,
-		'lipstick': lipstick,
-		'eyeshadow': eyeshadow,
-		'time': time,
-		'occasion': occasion,
-		'style': style
+		foundation: "styleeeeeee",
+		concealer: "styleeeeeee",
+		eyeliner: "styleeeeeee",
+		blush: "styleeeeeee",
+		mascara: "styleeeeeee",
+		lipstick: "styleeeeeee",
+		eyeshadow: "styleeeeeee",
+		time: "styleeeeeee",
+		occasion: "styleeeeeee",
+		style: "styleeeeeee"
 	}
-
+	console.log(style)
 	data.input.push(newData);
  }
-
-
-{{results.style}}

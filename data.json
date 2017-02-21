@@ -1,16 +1,15 @@
 {
-	"input": [
+	"input":
 		{
-			"foundation": false,
-			"concealer": false,
-			"eyeliner": false,
-			"blush": false,
-			"mascara": false,
-			"lipstick": false,
-			"eyeshadow": false,
-			"time": "timeasssd",
-			"occasion": "occasion",
-			"style": "style"
-		}	
-	]
+			"foundation": "timeeeeeeeee",
+			"concealer": "timeeeeeeeee",
+			"eyeliner": "timeeeeeeeee",
+			"blush": "timeeeeeeeee",
+			"mascara": "timeeeeeeeee",
+			"lipstick": "timeeeeeeeee",
+			"eyeshadow": "timeeeeeeeee",
+			"time": "timeeeeeeeee",
+			"occasion": "occasionnnnnnnn",
+			"style": "styleeeeeee"
+		}
 }
