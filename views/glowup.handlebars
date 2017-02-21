@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html>
-
 <head>
 
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<script src="../routes/style.js" ></script>
 
 	<title>GlowUp!</title>
 
 	<!--bootstrap CDN-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/glowup.js"></script>
 
 	<!--stuff for the person icon-->
 	<!--<link rel="stylesheet" href="/lib/w3.css">-->
@@ -37,11 +40,13 @@
 	</div>
 	<div class="main-title">
 
+
          <h3 id="header-title">{{input.time}}</h3>
 				 <h3 id="header-title">{{input.occasion}}</h3>
 			 	<hr />
 
 		<h3 id="header-title"> Your "STYLE" Look </h3>
+
 	</div>
 	<div class="img">
 		<img src="http://i.imgur.com/saTbvJq.jpg" id="look-image">
@@ -58,8 +63,14 @@
 			<li class = "step">8. Apply light-neutral lipstick shade</li>
 		</ul>
 	</div>
+	<div class ="container">
+		<iframe width="100%" height="100%" 
+			src="https://www.youtube.com/embed/4Hz-uq1oS0E" frameborder="0" allowfullscreen>
+		</iframe>
+	</div>
+
 	<footer>
-		<a href = "/">
+		<a href = "/home">
 			<button class ="btn btn-primary btn-lg btn-block full-width">Done</button>
 		</a>
 	</footer>
