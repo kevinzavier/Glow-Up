@@ -23,6 +23,7 @@
 		vertical-align: -14%;
 	}
 	</style>
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 
 <body>
@@ -30,7 +31,7 @@
 <!-- time page -->
 <div class="page">
 	<div class="header">
-		<a role="button" href="#" id="back" style="display:none">
+		<a role="button" href="#" id="back" style="display:none" onclick = "">
 			<span class="glyphicon glyphicon-arrow-left" id="left-arrow"></span>
 		</a>
 		<h3 id="header-title"> Time </h3>
@@ -91,10 +92,9 @@
 	</div>
 	<footer>
 		<a href = "#" onclick="showOccasion()" id="nxt">
-			<button class ="btn btn-primary btn-lg btn-block full-width">Next</button>
-		</a>
-		<a href = "#" onclick="showStyle()" id = "glowup">
-			<button class ="btn btn-primary btn-lg btn-block full-width">Glow Up!</button>
+			<button>
+				<span class ="btn btn-primary btn-lg btn-block full-width"> Next </span>
+			</button>
 		</a>
 	</footer>
 </div>
@@ -105,31 +105,27 @@
 		document.getElementById("occasion").style.display = "none";
 		document.getElementById("header-title").innerHTML = "Time";
 		document.getElementById("back").style.display = "none";
-		document.getElementById("nxt").onclick = showOccasion();
-		//hide glowup button
-		document.getElementById("glowup").display = "none";
+		$("#nxt").attr("onclick", "showOccasion()");
 	}
 	function showOccasion() {
 		document.getElementById("time").style.display = "none";
 		document.getElementById("occasion").style.display = "initial";
-		// since you can go to this page both ways
 		document.getElementById("style").style.display = "none";
 		document.getElementById("header-title").innerHTML = "Occasion";
 		document.getElementById("back").style.display = "initial";
-		document.getElementById("back").onclick = showTime();
-		document.getElementById("nxt").onclick = showStyle();
-		//hide glowup button
-		document.getElementById("glowup").display = "none";
+		$("#back").attr("onclick", "showTime()");
+		$("#nxt").attr("onclick", "showStyle()"); 
 	}
 	function showStyle() {
 		document.getElementById("occasion").style.display = "none";
 		document.getElementById("style").style.display = "initial";
 		document.getElementById("header-title").innerHTML = "Style";
-		document.getElementById("back").onclick = showOccasion();
-		document.getElementById("nxt").onclick = ""; // since it is a simple link
-		//show glowup button, hide next button
-		document.getElementById("glowup").display = "initial";
-		document.getElementById("next").display = "none";
+		$("#back").attr("onclick", "showOccasion()");
+		$("#nxt span").text("Glow Up!");
+		$("#nxt").attr("onclick", "toGlowUp()"); 
+	}
+	function toGlowUp() {
+		$("#nxt").attr("href", "/glowup");
 	}
 </script>
 </body>
