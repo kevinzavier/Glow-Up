@@ -1,5 +1,5 @@
 {
-	'time' :[{ 'morning', 'afternoon', 
+	time' :[{ 'morning', 'afternoon', 
 			style:[{ 'edgy'
 					occasion: ['date', 'school', 'formal', 'concert', 'party'],
 					steps: '1.  Apply foundation all over face
