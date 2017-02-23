@@ -1,0 +1,146 @@
+{   "output": {
+	"result1" : {
+		"title": "edgy",
+		"imageURL": "",
+		"steps": "1.  Apply foundation all over face
+							2.  Apply concealer to under eyes and any problem areas
+							3.  Apply heavy blush to apples of cheeks
+							4.  Apply darker eyeshadow colors to eyelid and fade towards crease
+							5.	Apply lighter eyeshadow to inner corner and below eyebrows
+							6.	Apply heavy eyeliner, wing tip optional
+							7.	Apply mascara
+							8.	Apply dark lipstick",
+		"videoURL": "https://www.youtube.com/watch?v=YmhSge09PzM"
+	},
+	"result2" : {
+		"title": "casual",
+		"imageURL": "",
+		"steps": "1.  Apply foundation all over face
+							2.  Apply concealer to under eyes and any problem areas
+							3.  Apply light blush to apples of cheeks
+							4.  Apply light/medium eyeshadow all over crease
+							5.  Apply light eyeshadow to inner crease and below eyebrows
+							6.  Apply eyeliner to waterline if desired
+							7.  Apply mascara",
+		"videoURL": "https://www.youtube.com/watch?v=W2asVll3OSU"
+	},
+	"result3" : {
+		"title": "rogue",
+		"imageURL": "",
+		"steps": "1. 	Apply foundation all over face
+							2.	Apply concealer to under eyes and any problem areas
+							3.	Apply heavy blush to apples of cheeks
+							4.	Apply your craziest eyeshadow heavily to your lids
+							5.	Apply thick line of black or other colored eyeliner to top lid
+							6.	Extend eyeliner out into a creative wing
+							7.	Apply mascara to top and bottom lashes, using multiple coats to build",
+		"videoURL": "https://www.youtube.com/watch?v=pb7uCqAXsK4"
+	},
+	"result4" : {
+		"title": "glamorous",
+		"imageURL": "",
+		"steps": "1.	Apply foundation all over face
+							2.	Apply concealer to under eyes and any problem areas
+							3.	Apply blush to apples of cheeks
+							4.	Apply shimmery eyeshadow all over lid
+							5.	Apply light eyeshadow to inner corner and below eyebrows
+							6.	Apply eyeliner, wing tip optional
+							6.	Apply light-neutral lipstick shade",
+		"videoURL": "https://www.youtube.com/watch?v=AdpPDpM1tIA"
+	},
+	"result5" : {
+		"title": "classic",
+		"imageURL": "",
+		"steps": "1.	Apply foundation all over face
+							2.	Apply concealer to under eyes and any problem areas
+							3.	Apply blush to apples of cheeks
+							4.	Apply neutral eyeshadow all over lid
+							5.	Apply light eyeshadow to inner corners and below eyebrows
+							6.	Apply eyeliner
+							7.	Apply mascara
+							8.	Apply light-neutral lipstick shade",
+		"videoURL": "https://www.youtube.com/watch?v=4Hz-uq1oS0E"
+	},
+	"result6" : {
+		"title": "natural",
+		"imageURL": "",
+		"steps": "1.	Apply foundation all over face
+						2.	Apply concealer to under eyes and any problem areas
+						3.	Apply light blush to apples of cheeks
+						4.	Apply skin tone color eyeshadow
+						5.	Apply mascara",
+		"videoURL": "https://www.youtube.com/watch?v=25wZ8AAt3Bc&t=38s"
+	},
+	"result7" : {
+		"title": "edgy",
+		"imageURL": "",
+		"steps": "1.	Apply foundation all over face
+							2.	Apply concealer to under eyes and any problem areas
+							3.	Apply heavy blush to apples of cheeks
+							4.	Apply darker eyeshadow colors to eyelid and fade towards crease
+							5.	Apply lighter eyeshadow to inner corner and below eyebrows
+							6.	Apply heavy eyeliner, wing tip optional
+							7.  Apply mascara
+							8.	Apply dark lipstick",
+		"videoURL": "https://www.youtube.com/watch?v=C7cm65Flsns"
+	},
+	"result8" : {
+		"title": "casual",
+		"imageURL": "",
+		"steps": "1.	Apply foundation all over face
+							2.	Apply concealer to under eyes and any problem areas
+							3.	Apply light blush to apples of cheeks
+							4.	Apply light/medium eyeshadow all over crease
+							5.	Apply light eyeshadow to inner crease and below eyebrows
+							6.	Apply eyeliner to waterline if desired
+							7.	Apply mascara",
+		"videoURL": "https://www.youtube.com/watch?v=1jR5VF-mnCI"
+	},
+	"result9" : {
+		"title": "rogue",
+		"imageURL": "",
+		"steps": "1.	Apply foundation all over face
+							2.	Apply concealer to under eyes and any problem areas
+							3.	Apply heavy blush to apples of cheeks
+							4.	Apply your craziest eyeshadow heavily to your lids
+							5.	Apply thick line of black or other colored eyeliner to top lid
+							6.	Extend eyeliner out into a creative wing
+							7.	Apply mascara to top and bottom lashes, using multiple coats to build",
+		"videoURL": "https://www.youtube.com/watch?v=XIbhoWaIxcc"
+	},
+	"result10" : {
+		"title": "glamorous",
+		"imageURL": "",
+		"steps": "1.	Apply foundation all over face
+							2.	Apply concealer to under eyes and any problem areas
+							3.	Apply blush to apples of cheeks
+							4.	Apply shimmery eyeshadow all over lid
+							5.	Apply light eyeshadow to inner corner and below eyebrows
+							6.	Apply eyeliner, wing tip optional
+							7.	Apply light-neutral lipstick shade",
+		"videoURL": "https://www.youtube.com/watch?v=cgMQJKNDs7o"
+	},
+	"result11" : {
+		"title": "classic",
+		"imageURL": "",
+		"steps": "1.	Apply foundation all over face
+							2.	Apply concealer to under eyes and any problem areas
+							3.	Apply blush to apples of cheeks
+							4.	Apply neutral eyeshadow all over lid
+							5.	Apply light eyeshadow to inner corners and below eyebrows
+							6.	Apply eyeliner
+							7.	Apply mascara
+							8.	Apply light-neutral lipstick shade",
+		"videoURL": "https://www.youtube.com/watch?v=dIasRNyldvk"
+	},
+	"result12" : {
+		"title": "natural",
+		"imageURL": "",
+		"steps": "1.	Apply foundation all over face
+							2.	Apply concealer to under eyes and any problem areas
+							3.	Apply light blush to apples of cheeks
+							4.	Apply skin tone color eyeshadow
+							5.	Apply mascara",
+		"videoURL": "https://www.youtube.com/watch?v=ceZnAQcc_G4"
+	}
+}}
