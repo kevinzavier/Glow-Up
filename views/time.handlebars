@@ -11,7 +11,8 @@
 	<title>GlowUp!</title>
 
 	<!--bootstrap CDN-->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+			integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 	<!--stuff for the person icon-->
 	<!--<link rel="stylesheet" href="/lib/w3.css">-->
@@ -22,32 +23,108 @@
 		vertical-align: -14%;
 	}
 	</style>
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 
 <body>
+
+<!-- time page -->
+<div class="page">
 	<div class="header">
+		<a role="button" href="#" id="back" style="display:none" onclick = "">
+			<span class="glyphicon glyphicon-arrow-left" id="left-arrow"></span>
+		</a>
+		<h3 id="header-title"> Time </h3>
 		<a role="button" href="/home">
 			<span class="glyphicon glyphicon-home" id="home"></span>
 		</a>
-		<h3 id="header-title"> Time </h3>
 	</div>
-	<div class="btn-group" data-toggle="buttons">
+	<div class="btn-group" data-toggle="buttons" id="time">
 		<label class="btn btn-primary btn-lg btn-block full-width">
-			<input type="radio" name="options" id="option1" autocomplete="off" checked> Morning
-		</label>
-		<label class="btn btn-primary btn-lg btn-block full-width">
-			<input type="radio" name="options" id="option2" autocomplete="off"> Afternoon
+			<input type="radio" name="options" id="option1" autocomplete="off" checked> Day
 		</label>
 		<label class="btn btn-primary btn-lg btn-block full-width">
 			<input type="radio" name="options" id="option3" autocomplete="off"> Night
 		</label>
 	</div>
+	<div class="btn-group" data-toggle="buttons" id="occasion" style="display:none">
+		<label class="btn btn-primary btn-lg btn-block full-width">
+			<input type="radio" name="options" id="option1" autocomplete="off" checked> Date
+		</label>
+		<label class="btn btn-primary btn-lg btn-block full-width">
+			<input type="radio" name="options" id="option2" autocomplete="off"> Concert
+		</label>
+		<label class="btn btn-primary btn-lg btn-block full-width">
+			<input type="radio" name="options" id="option3" autocomplete="off"> School
+		</label>
+		<label class="btn btn-primary btn-lg btn-block full-width">
+			<input type="radio" name="options" id="option3" autocomplete="off"> Work
+		</label>
+		<label class="btn btn-primary btn-lg btn-block full-width">
+			<input type="radio" name="options" id="option3" autocomplete="off"> Formal
+		</label>
+		<label class="btn btn-primary btn-lg btn-block full-width">
+			<input type="radio" name="options" id="option3" autocomplete="off"> Party
+		</label>
+	</div>
+	<div class="btn-group" data-toggle="buttons" id="style" style="display:none">
+		<label class="btn btn-primary btn-lg btn-block full-width style">
+			<input type="radio" name="options" id="option1" autocomplete="off" checked> Casual
+		</label>
+		<label class="btn btn-primary btn-lg btn-block full-width style">
+			<input type="radio" name="options" id="option2" autocomplete="off"> Glamorous
+		</label>
+		<label class="btn btn-primary btn-lg btn-block full-width style">
+			<input type="radio" name="options" id="option3" autocomplete="off"> Edgy
+		</label>
+		<label class="btn btn-primary btn-lg btn-block full-width style">
+			<input type="radio" name="options" id="option3" autocomplete="off"> Classic
+		</label>
+		<label class="btn btn-primary btn-lg btn-block full-width style">
+			<input type="radio" name="options" id="option3" autocomplete="off"> Rogue
+		</label>
+		<label class="btn btn-primary btn-lg btn-block full-width style">
+			<input type="radio" name="options" id="option3" autocomplete="off"> Natural
+		</label>
+	</div>
 	<footer>
-		<a href = "/occasion">
-			<button class ="btn btn-primary btn-lg btn-block full-width">Next</button>
+		<a href = "#" onclick="showOccasion()" id="nxt">
+			<button>
+				<span class ="btn btn-primary btn-lg btn-block full-width"> Next </span>
+			</button>
 		</a>
 	</footer>
 </div>
+
+<script>
+	function showTime() {
+		document.getElementById("time").style.display = "initial";
+		document.getElementById("occasion").style.display = "none";
+		document.getElementById("header-title").innerHTML = "Time";
+		document.getElementById("back").style.display = "none";
+		$("#nxt").attr("onclick", "showOccasion()");
+	}
+	function showOccasion() {
+		document.getElementById("time").style.display = "none";
+		document.getElementById("occasion").style.display = "initial";
+		document.getElementById("style").style.display = "none";
+		document.getElementById("header-title").innerHTML = "Occasion";
+		document.getElementById("back").style.display = "initial";
+		$("#back").attr("onclick", "showTime()");
+		$("#nxt").attr("onclick", "showStyle()");
+	}
+	function showStyle() {
+		document.getElementById("occasion").style.display = "none";
+		document.getElementById("style").style.display = "initial";
+		document.getElementById("header-title").innerHTML = "Style";
+		$("#back").attr("onclick", "showOccasion()");
+		$("#nxt span").text("Glow Up!");
+		$("#nxt").attr("onclick", "toGlowUp()");
+	}
+	function toGlowUp() {
+		$("#nxt").attr("href", "/glowup");
+	}
+</script>
 </body>
 
 </html>

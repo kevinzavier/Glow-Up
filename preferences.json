@@ -1,0 +1,158 @@
+{
+	time' :[{ 'morning', 'afternoon', 
+			style:[{ 'edgy'
+					occasion: ['date', 'school', 'formal', 'concert', 'party'],
+					steps: '1.  Apply foundation all over face
+							2.  Apply concealer to under eyes and any problem areas
+							3.  Apply heavy blush to apples of cheeks
+							4.  Apply darker eyeshadow colors to eyelid and fade towards crease
+							5.	Apply lighter eyeshadow to inner corner and below eyebrows
+							6.	Apply heavy eyeliner, wing tip optional
+							7.	Apply mascara
+							8.	Apply dark lipstick'
+					}]
+			}]
+	'time' :[{ 'morning', 'afternoon', 
+			style:[{ 'casual'
+					occasion: ['date', 'school', 'work', 'party'],
+					steps: '1.  Apply foundation all over face
+							2.  Apply concealer to under eyes and any problem areas
+							3.  Apply light blush to apples of cheeks
+							4.  Apply light/medium eyeshadow all over crease
+							5.  Apply light eyeshadow to inner crease and below eyebrows
+							6.  Apply eyeliner to waterline if desired
+							7.  Apply mascara'
+
+					}]
+			}]
+	'time' :[{ 'morning', 'afternoon', 
+			style:[{ 'rogue'
+					occasion: ['date', 'school', 'formal', 'concert', 'party'],
+					steps: '1. 	Apply foundation all over face
+							2.	Apply concealer to under eyes and any problem areas
+							3.	Apply heavy blush to apples of cheeks
+							4.	Apply your craziest eyeshadow heavily to your lids
+							5.	Apply thick line of black or other colored eyeliner to top lid
+							6.	Extend eyeliner out into a creative wing
+							7.	Apply mascara to top and bottom lashes, using multiple coats to build'
+
+					}]
+			}]
+	'time' :[{ 'morning', 'afternoon', 
+			style:[{ 'glamorous'
+					occasion: ['date', 'school', 'work', formal', 'concert', 'party'],
+					steps: '1.	Apply foundation all over face
+							2.	Apply concealer to under eyes and any problem areas
+							3.	Apply blush to apples of cheeks
+							4.	Apply shimmery eyeshadow all over lid
+							5.	Apply light eyeshadow to inner corner and below eyebrows
+							6.	Apply eyeliner, wing tip optional
+							6.	Apply light-neutral lipstick shade'
+					}]
+			}]
+	'time' :[{ 'morning', 'afternoon', 
+			style:[{ 'classic'
+					occasion: ['date', 'school', 'work', formal', 'concert', 'party'],
+					steps: '1.	Apply foundation all over face
+							2.	Apply concealer to under eyes and any problem areas
+							3.	Apply blush to apples of cheeks
+							4.	Apply neutral eyeshadow all over lid
+							5.	Apply light eyeshadow to inner corners and below eyebrows
+							6.	Apply eyeliner
+							7.	Apply mascara
+							8.	Apply light-neutral lipstick shade'
+					}]
+			}]
+	'time' :[{ 'morning', 'afternoon', 
+			style:[{ 'natural'
+					occasion: ['date', 'school', 'work', 'formal', 'concert', 'party'],
+					steps: '1.	Apply foundation all over face
+							2.	Apply concealer to under eyes and any problem areas
+							3.	Apply light blush to apples of cheeks
+							4.	Apply skin tone color eyeshadow 
+							5.	Apply mascara'
+					}]
+			}]
+
+//night instructions
+	'time' :[{ 'night',
+			style:[{ 'edgy'
+					occasion: ['date', 'formal', 'concert', 'party'],
+					steps: '1.	Apply foundation all over face
+							2.	Apply concealer to under eyes and any problem areas
+							3.	Apply heavy blush to apples of cheeks
+							4.	Apply darker eyeshadow colors to eyelid and fade towards crease
+							5.	Apply lighter eyeshadow to inner corner and below eyebrows
+							6.	Apply heavy eyeliner, wing tip optional
+							7.  Apply mascara
+							8.	Apply dark lipstick'
+
+					}]
+			}]
+	'time' :[{ 'night',
+			style:[{ 'casual'
+					occasion: ['date', 'formal', 'concert', 'party'],
+					steps: '1.	Apply foundation all over face
+							2.	Apply concealer to under eyes and any problem areas
+							3.	Apply light blush to apples of cheeks
+							4.	Apply light/medium eyeshadow all over crease
+							5.	Apply light eyeshadow to inner crease and below eyebrows
+							6.	Apply eyeliner to waterline if desired
+							7.	Apply mascara'
+
+					}]
+			}]
+	'time' :[{ 'night',
+			style:[{ 'rogue'
+					occasion: ['date', 'formal', 'concert', 'party'],
+					steps: '1.	Apply foundation all over face
+							2.	Apply concealer to under eyes and any problem areas
+							3.	Apply heavy blush to apples of cheeks
+							4.	Apply your craziest eyeshadow heavily to your lids
+							5.	Apply thick line of black or other colored eyeliner to top lid
+							6.	Extend eyeliner out into a creative wing
+							7.	Apply mascara to top and bottom lashes, using multiple coats to build'
+
+
+					}]
+			}]
+	'time' :[{ 'night',
+			style:[{ 'glamorous'
+					occasion: ['date', 'formal', 'concert', 'party'],
+					steps: '1.	Apply foundation all over face
+							2.	Apply concealer to under eyes and any problem areas
+							3.	Apply blush to apples of cheeks
+							4.	Apply shimmery eyeshadow all over lid
+							5.	Apply light eyeshadow to inner corner and below eyebrows
+							6.	Apply eyeliner, wing tip optional
+							7.	Apply light-neutral lipstick shade'
+
+					}]
+			}]
+	'time' :[{ 'night',
+			style:[{ 'classic'
+					occasion: ['date', 'school', 'work', 'formal', 'concert', 'party'],
+					steps: '1.	Apply foundation all over face
+							2.	Apply concealer to under eyes and any problem areas
+							3.	Apply blush to apples of cheeks
+							4.	Apply neutral eyeshadow all over lid
+							5.	Apply light eyeshadow to inner corners and below eyebrows
+							6.	Apply eyeliner
+							7.	Apply mascara
+							8.	Apply light-neutral lipstick shade'
+
+					}]
+			}]
+	'time' :[{ 'night',
+			style:[{ 'natural'
+					occasion: ['date', 'school', 'work', formal', 'concert', 'party'],
+					steps: '1.	Apply foundation all over face
+							2.	Apply concealer to under eyes and any problem areas
+							3.	Apply light blush to apples of cheeks
+							4.	Apply skin tone color eyeshadow 
+							5.	Apply mascara
+
+					}]
+			}]
+
+}

@@ -1,15 +1,8 @@
 {
 	"input":
 		{
-			"foundation": "timeeeeeeeee",
-			"concealer": "timeeeeeeeee",
-			"eyeliner": "timeeeeeeeee",
-			"blush": "timeeeeeeeee",
-			"mascara": "timeeeeeeeee",
-			"lipstick": "timeeeeeeeee",
-			"eyeshadow": "timeeeeeeeee",
-			"time": "timeeeeeeeee",
-			"occasion": "occasionnnnnnnn",
-			"style": "styleeeeeee"
+			"time": "morning",
+			"occasion": "edgy",
+			"style": "work"
 		}
 }
