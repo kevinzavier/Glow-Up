@@ -50,6 +50,10 @@ app.get('/home', function (req, res) {
   res.render('home')
 })
 
+app.get('/home', function (req, res) {
+  res.render('home')
+})
+
 
 app.listen(port, function () {
   console.log('App is running on port 3000')
