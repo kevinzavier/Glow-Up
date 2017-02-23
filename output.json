@@ -1,7 +1,19 @@
 {   "output": {
+	"default" : {
+		"title": "",
+		"imageURL": "/pics/default.jpg",
+		"steps": "1.  Apply foundation all over face
+							2.  Apply concealer to under eyes and any problem areas
+							3.  Apply blush to apples of cheeks
+							4.  Apply eyeshadow
+							5.	Apply eyeliner
+							7.	Apply mascara
+							8.	Apply lipstick",
+		"videoURL": "https://www.youtube.com/watch?v=YmhSge09PzM"
+	},
 	"result1" : {
 		"title": "edgy",
-		"imageURL": "",
+		"imageURL": "/pics/pic1.jpg",
 		"steps": "1.  Apply foundation all over face
 							2.  Apply concealer to under eyes and any problem areas
 							3.  Apply heavy blush to apples of cheeks
@@ -14,7 +26,7 @@
 	},
 	"result2" : {
 		"title": "casual",
-		"imageURL": "",
+		"imageURL": "/pics/pic2.jpg",
 		"steps": "1.  Apply foundation all over face
 							2.  Apply concealer to under eyes and any problem areas
 							3.  Apply light blush to apples of cheeks
@@ -26,7 +38,7 @@
 	},
 	"result3" : {
 		"title": "rogue",
-		"imageURL": "",
+		"imageURL": "/pics/pic3.jpg",
 		"steps": "1. 	Apply foundation all over face
 							2.	Apply concealer to under eyes and any problem areas
 							3.	Apply heavy blush to apples of cheeks
@@ -38,7 +50,7 @@
 	},
 	"result4" : {
 		"title": "glamorous",
-		"imageURL": "",
+		"imageURL": "/pics/pic4.jpg",
 		"steps": "1.	Apply foundation all over face
 							2.	Apply concealer to under eyes and any problem areas
 							3.	Apply blush to apples of cheeks
@@ -50,7 +62,7 @@
 	},
 	"result5" : {
 		"title": "classic",
-		"imageURL": "",
+		"imageURL": "/pics/pic5.jpg",
 		"steps": "1.	Apply foundation all over face
 							2.	Apply concealer to under eyes and any problem areas
 							3.	Apply blush to apples of cheeks
@@ -63,7 +75,7 @@
 	},
 	"result6" : {
 		"title": "natural",
-		"imageURL": "",
+		"imageURL": "/pics/pic6.jpg",
 		"steps": "1.	Apply foundation all over face
 						2.	Apply concealer to under eyes and any problem areas
 						3.	Apply light blush to apples of cheeks
@@ -73,7 +85,7 @@
 	},
 	"result7" : {
 		"title": "edgy",
-		"imageURL": "",
+		"imageURL": "/pics/pic7.jpg",
 		"steps": "1.	Apply foundation all over face
 							2.	Apply concealer to under eyes and any problem areas
 							3.	Apply heavy blush to apples of cheeks
@@ -86,7 +98,7 @@
 	},
 	"result8" : {
 		"title": "casual",
-		"imageURL": "",
+		"imageURL": "/pics/pic8.JPG",
 		"steps": "1.	Apply foundation all over face
 							2.	Apply concealer to under eyes and any problem areas
 							3.	Apply light blush to apples of cheeks
@@ -98,7 +110,7 @@
 	},
 	"result9" : {
 		"title": "rogue",
-		"imageURL": "",
+		"imageURL": "/pics/pic9.jpg",
 		"steps": "1.	Apply foundation all over face
 							2.	Apply concealer to under eyes and any problem areas
 							3.	Apply heavy blush to apples of cheeks
@@ -110,7 +122,7 @@
 	},
 	"result10" : {
 		"title": "glamorous",
-		"imageURL": "",
+		"imageURL": "/pics/pic10.jpg",
 		"steps": "1.	Apply foundation all over face
 							2.	Apply concealer to under eyes and any problem areas
 							3.	Apply blush to apples of cheeks
@@ -122,7 +134,7 @@
 	},
 	"result11" : {
 		"title": "classic",
-		"imageURL": "",
+		"imageURL": "/pics/pic11.JPG",
 		"steps": "1.	Apply foundation all over face
 							2.	Apply concealer to under eyes and any problem areas
 							3.	Apply blush to apples of cheeks
@@ -135,7 +147,7 @@
 	},
 	"result12" : {
 		"title": "natural",
-		"imageURL": "",
+		"imageURL": "/pics/pic12.jpg",
 		"steps": "1.	Apply foundation all over face
 							2.	Apply concealer to under eyes and any problem areas
 							3.	Apply light blush to apples of cheeks
