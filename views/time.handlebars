@@ -41,10 +41,7 @@
 	</div>
 	<div class="btn-group" data-toggle="buttons" id="time">
 		<label class="btn btn-primary btn-lg btn-block full-width">
-			<input type="radio" name="options" id="option1" autocomplete="off" checked> Morning
-		</label>
-		<label class="btn btn-primary btn-lg btn-block full-width">
-			<input type="radio" name="options" id="option2" autocomplete="off"> Afternoon
+			<input type="radio" name="options" id="option1" autocomplete="off" checked> Day
 		</label>
 		<label class="btn btn-primary btn-lg btn-block full-width">
 			<input type="radio" name="options" id="option3" autocomplete="off"> Night
@@ -114,7 +111,7 @@
 		document.getElementById("header-title").innerHTML = "Occasion";
 		document.getElementById("back").style.display = "initial";
 		$("#back").attr("onclick", "showTime()");
-		$("#nxt").attr("onclick", "showStyle()"); 
+		$("#nxt").attr("onclick", "showStyle()");
 	}
 	function showStyle() {
 		document.getElementById("occasion").style.display = "none";
@@ -122,7 +119,7 @@
 		document.getElementById("header-title").innerHTML = "Style";
 		$("#back").attr("onclick", "showOccasion()");
 		$("#nxt span").text("Glow Up!");
-		$("#nxt").attr("onclick", "toGlowUp()"); 
+		$("#nxt").attr("onclick", "toGlowUp()");
 	}
 	function toGlowUp() {
 		$("#nxt").attr("href", "/glowup");

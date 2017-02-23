@@ -34,7 +34,9 @@ exports.view = function(req, res){
 		var result = output.result11;
 	} else if (time=="night" && style=="natural") {
 		var result = output.result12;
+	} else {
+		var result = output.default;
 	}
-	
+
 	res.render('glowup', result);
 };
