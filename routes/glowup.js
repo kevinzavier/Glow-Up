@@ -36,8 +36,6 @@ exports.view = function(req, res){
 		result = output.default;
 	}
 
-	console.log(result);
-
 	res.render('glowup', {
 		'title': result.title,
 		'imageURL': result.imageURL,
