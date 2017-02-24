@@ -1,42 +1,47 @@
 // Get all of our friend data
-var data = require('../data.json');
 var output = require('../output.json');
 
 exports.view = function(req, res){
 	console.log("starting getting info from data file");
-	console.log(data);
 
-	var time = data.input.time;
-	var occasion = data.input.occasion;
-	var style = data.input.style;
+	var time = "day";
+	var style = "edgy";
+	var result;
 
 	if(time=="day" && style=="edgy") {
-		var result = output.result1;
+		result = output.result1;
 	} else if (time=="day" && style=="casual") {
-		var result = output.result2;
+		result = output.result2;
 	} else if (time=="day" && style=="rogue") {
-		var result = output.result3;
+		result = output.result3;
 	} else if (time=="day" && style=="glamorous") {
-		var result = output.result4;
+		result = output.result4;
 	} else if (time=="day" && style=="classic") {
-		var result = output.result5;
+		result = output.result5;
 	} else if (time=="day" && style=="natural") {
-		var result = output.result6;
+		result = output.result6;
 	} else if(time=="night" && style=="edgy") {
-		var result = output.result7;
+		result = output.result7;
 	} else if (time=="night" && style=="casual") {
-		var result = output.result8;
+		result = output.result8;
 	} else if (time=="night" && style=="rogue") {
-		var result = output.result9;
+		result = output.result9;
 	} else if (time=="night" && style=="glamorous") {
-		var result = output.result10;
+		result = output.result10;
 	} else if (time=="night" && style=="classic") {
-		var result = output.result11;
+		result = output.result11;
 	} else if (time=="night" && style=="natural") {
-		var result = output.result12;
+		result = output.result12;
 	} else {
-		var result = output.default;
+		result = output.default;
 	}
 
-	res.render('glowup', result);
+	console.log(result);
+
+	res.render('glowup', {
+		'title': result.title,
+		'imageURL': result.imageURL,
+		'steps': result.steps,
+		'videoURL': result.videoURL
+	});
 };

@@ -1,6 +1,4 @@
-{
-	"output": {
-		"default": {
+{	"default": {
 			"title": "default",
 			"imageURL": "/pics/default.jpg",
 			"steps": ["1. Apply foundation all over face",
@@ -170,4 +168,3 @@
 			"videoURL": "https://www.youtube.com/watch?v=ceZnAQcc_G4"
 		}
 	}
-}
