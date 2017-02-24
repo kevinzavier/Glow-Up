@@ -2,9 +2,13 @@
   width: 200px;
   height: 200px;
   border-radius: 100%;
+  font-family: 'Dancing Script', cursive;
+  background-color: #FAD4D8;
 
 }
-
+.white {
+  color: #FFF;
+}
 .material-icons {
     vertical-align: -14%
 }
@@ -24,10 +28,11 @@
 }
 #profile-button {
   /*for 375x612 */
-  color: black;
+  color: #FFF;
   font-size: 30px;
 }
 
 body{
-  font-family: Arial, sans-serif;
+  font-family: 'Indie Flower', cursive;
+  background-color: #000;
 }

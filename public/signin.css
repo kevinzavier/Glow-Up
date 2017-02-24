@@ -1,11 +1,15 @@
+body{
+	background-color: #000;
+}
 
 .header {
-	display: inline;
+
 }
 
 #header-title {
-	display: inline-block;
-	margin-left: 21%;
+	font-size: 60px;
+	font-family: 'Pacifico', cursive;
+	color: #FFF	;
 }
 
 #home {
@@ -17,13 +21,19 @@
 
 .full-width {
 	height: 60px;
-	background-color: black;
+	background-color: #FAD4D8;
 	margin-top: 100px;
 	margin-bottom: 2px;
 	width: 380px;
 	border-radius: 0;
+	color: #000;
 }
-
+.label{
+	width: 80%;
+}
+.regular{
+	font-family: Arial;
+}
 footer {
-	margin-top: 58%;
+	margin-top: 100px;
 }

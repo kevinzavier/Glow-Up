@@ -14,6 +14,5 @@ exports.addData = function(req, res) { 
 		"style": style
 	}
 	
-	console.log(style)
 	data.input.push(newData);
  }

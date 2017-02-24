@@ -1,3 +1,7 @@
+body{
+	background-color: #FAD4D8;
+	  font-family: 'Dancing Script', cursive;
+}
 .header {
 	display: inline;
 }
