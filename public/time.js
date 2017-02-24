@@ -16,9 +16,9 @@ $(document).ready(function() {
     if(text != "") {
       localStorage.setItem('time', text);
     }
-    var style = localStorage.getItem('time');
+    var time = localStorage.getItem('time');
 
-    console.log(style);
+    console.log(time);
 
   });
   $("#occasion").click(function(e) {
@@ -27,9 +27,9 @@ $(document).ready(function() {
     if(text != "") {
       localStorage.setItem('occasion', text);
     }
-    var style = localStorage.getItem('occasion');
+    var occasion = localStorage.getItem('occasion');
 
-    console.log(style);
+    console.log(occasion);
 
   });
 });

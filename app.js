@@ -31,9 +31,7 @@ app.get('/time', function (req, res) {
   res.render('time')
 })
 
-app.get('/style', function (req, res) {
-  res.render('style')
-})
+
 
 app.get('/occasion', function (req, res) {
   res.render('occasion')

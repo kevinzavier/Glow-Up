@@ -1,11 +1,17 @@
 // Get all of our friend data
 var output = require('../output.json');
+var data = require('../data.json');
+
 
 exports.view = function(req, res){
-	console.log("starting getting info from data file");
 
-	var time = "day";
-	var style = "edgy";
+
+	var time = req.query.time;
+	var style = req.query.style;
+	var occasion = req.query.occasion;
+
+
+
 	var result;
 
 	if(time=="day" && style=="edgy") {
