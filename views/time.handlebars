@@ -23,7 +23,9 @@
 		vertical-align: -14%;
 	}
 	</style>
-	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script type="text/javascript" src="assets/time.js"></script>
 </head>
 
 <body>
@@ -122,7 +124,23 @@
 		$("#nxt").attr("onclick", "toGlowUp()");
 	}
 	function toGlowUp() {
+
+
+		var time = localStorage.getItem('time');
+		var style = localStorage.getItem('style');
+		var occasion = localStorage.getItem('occasion');
+		$("#nxt").attr("action", "/glowup");
+		$("#nxt").attr("method", "get");
 		$("#nxt").attr("href", "/glowup");
+
+
+
+
+		console.log("time is: " + time);
+		console.log("style is: " + style);
+		console.log("occasion is: " + occasion);
+
+
 	}
 </script>
 </body>
