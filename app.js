@@ -1,3 +1,4 @@
+var output = require('./output.json');
 var express = require('express');
 var fs = require('fs');
 var handlebars = require('express3-handlebars')
@@ -37,7 +38,58 @@ app.get('/occasion', function (req, res) {
   res.render('occasion')
 })
 
-app.get('/glowup', glowup.view)
+
+app.get('/glowup', function (req, res) {
+
+  var time = req.query.time;
+  var style = req.query.style;
+  var occasion = req.query.occasion;
+  console.log("time" + time + "!");
+  console.log("style" + style + "!");
+  console.log("occasion" + occasion);
+
+
+
+  var result;
+
+  if(time==" Day" && style==" Edgy") {
+    result = output.result1;
+  } else if (time==" Day" && style==" Casual") {
+    result = output.result2;
+  } else if (time==" Day" && style==" Rogue") {
+    result = output.result3;
+  } else if (time==" Day" && style==" Glamorous") {
+    result = output.result4;
+  } else if (time==" Day" && style==" Classic") {
+    result = output.result5;
+  } else if (time==" Day" && style==" Natural") {
+    result = output.result6;
+  } else if(time==" Night" && style==" Edgy") {
+    result = output.result7;
+  } else if (time==" Night" && style==" Casual") {
+    result = output.result8;
+  } else if (time==" Night" && style==" Rogue") {
+    result = output.result9;
+  } else if (time==" Night" && style==" Glamorous") {
+    result = output.result10;
+  } else if (time==" Night" && style==" Classic") {
+    result = output.result11;
+  } else if (time=="Night" && style==" Natural") {
+    result = output.result12;
+  } else {
+    result = output.default;
+  }
+  console.log(result);
+
+  res.render('glowup', {
+    'title': result.title,
+    'imageURL': result.imageURL,
+    'steps': result.steps,
+    'videoURL': result.videoURL
+  });
+
+})
+
 
 app.get('/signup', function (req, res) {
   res.render('signup')
