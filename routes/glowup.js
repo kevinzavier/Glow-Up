@@ -9,6 +9,9 @@ exports.view = function(req, res){
 	var time = req.query.time;
 	var style = req.query.style;
 	var occasion = req.query.occasion;
+	console.log("time " + time);
+	console.log("style " + style);
+	console.log("time " + time);
 
 
 
