@@ -9,7 +9,7 @@
 				"7. Apply mascara",
 				"8. Apply lipstick"
 			],
-			"videoURL": "https://www.youtube.com/watch?v=YmhSge09PzM"
+			"videoURL": "https://www.youtube.com/embed/YmhSge09PzM"
 		},
 		"result1": {
 			"title": "edgy",
@@ -23,7 +23,7 @@
 				"7. Apply mascara",
 				"8. Apply dark lipstick"
 			],
-			"videoURL": "https://www.youtube.com/watch?v=YmhSge09PzM"
+			"videoURL": "https://www.youtube.com/embed/YmhSge09PzM"
 		},
 		"result2": {
 			"title": "casual",
@@ -36,7 +36,7 @@
 				"6. Apply eyeliner to waterline if desired",
 				"7. Apply mascara"
 			],
-			"videoURL": "https://www.youtube.com/watch?v=W2asVll3OSU"
+			"videoURL": "https://www.youtube.com/embed/W2asVll3OSU"
 		},
 		"result3": {
 			"title": "rogue",
@@ -49,7 +49,7 @@
 				"6. Extend eyeliner out into a creative wing",
 				"7. Apply mascara to top and bottom lashes, using multiple coats to build"
 			],
-			"videoURL": "https://www.youtube.com/watch?v=pb7uCqAXsK4"
+			"videoURL": "https://www.youtube.com/embed/pb7uCqAXsK4"
 		},
 		"result4": {
 			"title": "glamorous",
@@ -62,7 +62,7 @@
 				"6. Apply eyeliner, wing tip optional",
 				"7. Apply light-neutral lipstick shade"
 			],
-			"videoURL": "https://www.youtube.com/watch?v=AdpPDpM1tIA"
+			"videoURL": "https://www.youtube.com/embed/AdpPDpM1tIA"
 		},
 		"result5": {
 			"title": "classic",
@@ -76,7 +76,7 @@
 				"7. Apply mascara",
 				"8. Apply light-neutral lipstick shade"
 			],
-			"videoURL": "https://www.youtube.com/watch?v=4Hz-uq1oS0E"
+			"videoURL": "https://www.youtube.com/embed/4Hz-uq1oS0E"
 		},
 		"result6": {
 			"title": "natural",
@@ -87,7 +87,7 @@
 				"4. Apply skin tone color eyeshadow",
 				"5. Apply mascara"
 			],
-			"videoURL": "https://www.youtube.com/watch?v=25wZ8AAt3Bc&t=38s"
+			"videoURL": "https://www.youtube.com/embed/25wZ8AAt3Bc&t=38s"
 		},
 		"result7": {
 			"title": "edgy",
@@ -101,7 +101,7 @@
 				"7. Apply mascara",
 				"8. Apply dark lipstick"
 			],
-			"videoURL": "https://www.youtube.com/watch?v=C7cm65Flsns"
+			"videoURL": "https://www.youtube.com/embed/C7cm65Flsns"
 		},
 		"result8": {
 			"title": "casual",
@@ -114,7 +114,7 @@
 				"6. Apply eyeliner to waterline if desired",
 				"7. Apply mascara"
 			],
-			"videoURL": "https://www.youtube.com/watch?v=1jR5VF-mnCI"
+			"videoURL": "https://www.youtube.com/embed/1jR5VF-mnCI"
 		},
 		"result9": {
 			"title": "rogue",
@@ -127,7 +127,7 @@
 				"6. Extend eyeliner out into a creative wing",
 				"7. Apply mascara to top and bottom lashes, using multiple coats to build"
 			],
-			"videoURL": "https://www.youtube.com/watch?v=XIbhoWaIxcc"
+			"videoURL": "https://www.youtube.com/embed/XIbhoWaIxcc"
 		},
 		"result10": {
 			"title": "glamorous",
@@ -140,7 +140,7 @@
 				"6. Apply eyeliner, wing tip optional",
 				"7. Apply light-neutral lipstick shade"
 			],
-			"videoURL": "https://www.youtube.com/watch?v=cgMQJKNDs7o"
+			"videoURL": "https://www.youtube.com/embed/cgMQJKNDs7o"
 		},
 		"result11": {
 			"title": "classic",
@@ -154,7 +154,7 @@
 				"7. Apply mascara",
 				"8. Apply light-neutral lipstick shade"
 			],
-			"videoURL": "https://www.youtube.com/watch?v=dIasRNyldvk"
+			"videoURL": "https://www.youtube.com/embed/dIasRNyldvk"
 		},
 		"result12": {
 			"title": "natural",
@@ -165,6 +165,6 @@
 				"4. Apply skin tone color eyeshadow",
 				"5. Apply mascara"
 			],
-			"videoURL": "https://www.youtube.com/watch?v=ceZnAQcc_G4"
+			"videoURL": "https://www.youtube.com/embed/ceZnAQcc_G4"
 		}
 	}
