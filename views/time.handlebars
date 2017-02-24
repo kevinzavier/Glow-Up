@@ -129,7 +129,6 @@
 		var time = localStorage.getItem('time');
 		var style = localStorage.getItem('style');
 		var occasion = localStorage.getItem('occasion');
-		$("#nxt").attr("action", "/glowup?id=12");
 		//				/player_detail?time=' + time + / + style + / + occasion
 		$("#nxt").attr("method", "get");
 		$("#nxt").attr("href", "/glowup?time=" + time + "&style=" + style + "&occasion" + occasion);

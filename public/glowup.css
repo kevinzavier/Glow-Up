@@ -1,3 +1,8 @@
+body{
+	background-color: #FAD4D8;
+		font-family: 'Dancing Script', cursive;
+}
+
 ul {
 	list-style: none;
 }
@@ -45,4 +50,9 @@ ul {
 	width: 380px;
 	border-radius: 0;
 	margin-top: 7%;
+}
+#header-title{
+	font-family: 'Lora', serif;
+
+
 }
