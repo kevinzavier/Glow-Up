@@ -6,9 +6,9 @@ exports.view = function(req, res){
 	console.log("starting getting info from data file");
 	console.log(data);
 
-	var time = res.query.time;
-	var occasion = res.query.occasion;
-	var style = res.query.style;
+	var time = data.input.time;
+	var occasion = data.input.occasion;
+	var style = data.input.style;
 
 	if(time=="day" && style=="edgy") {
 		var result = output.result1;
