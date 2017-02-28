@@ -49,6 +49,14 @@ app.get('/glowup', function (req, res) {
   console.log("style" + style + "!");
   console.log("occasion" + occasion);
 
+  var link;
+  if(occasion=="null"){
+    link = "/browse"
+  }
+  else{
+    link = "/time"
+  }
+
 
 
   var result;
@@ -86,7 +94,8 @@ app.get('/glowup', function (req, res) {
     'title': result.title,
     'imageURL': result.imageURL,
     'steps': result.steps,
-    'videoURL': result.videoURL
+    'videoURL': result.videoURL,
+    'link': link
   });
 
 })
