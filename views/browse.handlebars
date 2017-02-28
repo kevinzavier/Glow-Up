@@ -45,7 +45,8 @@
 			{{#each results}}
 			<li class="output">
 				<div class="lookBlock">
-					<div class="imgThumb"><button type="button" class="btn btn-primary btn-lg btn-block"><img src={{this.imageURL}} id="imgSmall">{{this.time}} {{this.style}}</button></div>
+					<div class="imgThumb"><a href="/glowup?time= {{this.time}}&style= {{this.style}}&occasion=null"><button
+						type="button" class="btn btn-primary btn-lg btn-block"><img src={{this.imageURL}} id="imgSmall">{{this.time}} {{this.style}}</button></a></div>
 				</div>
 			<li>
 			{{/each}}
