@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+	<title>GlowUp!</title>
+
+	<!--bootstrap CDN-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!--stuff for the person icon-->
+	<!--<link rel="stylesheet" href="/lib/w3.css">-->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+	<link rel="stylesheet" href="assets/profile.css">
+	<link rel="stylesheet" href="assets/browse.css">
+	<style>
+		.material-icons {
+			vertical-align: -14%;
+		}
+	</style>
+
+	<!-- Bootstrap -->
+	<link href="assets/profile.css" type="text/css" rel="stylesheet" />
+	<link href="../public/browse.css" type="text/css" rel="stylesheet"/>
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+</head>
+<body>
+	<div id="aTitle">
+		<h2>Browse Popular Styles</h2>
+	</div>
+	<div id="aList">
+		<ul>
+			{{#each results}}
+			<li class="output">
+				<div class="lookBlock">
+					<div class="imgThumb"><button type="button" class="btn btn-primary btn-lg btn-block"><img src={{this.imageURL}} id="imgSmall">{{this.time}} {{this.style}}</button></div>
+				</div>
+			<li>
+			{{/each}}
+		</ul>
+	</div>
+</body>

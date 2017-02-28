@@ -1,4 +1,5 @@
-{	"default": {
+{	"results": [
+		{
 			"title": "customized",
 			"imageURL": "assets/pics/default.jpg",
 			"steps": ["1. Apply foundation all over face",
@@ -9,9 +10,11 @@
 				"7. Apply mascara",
 				"8. Apply lipstick"
 			],
-			"videoURL": "https://www.youtube.com/embed/YmhSge09PzM"
+			"videoURL": "https://www.youtube.com/embed/YmhSge09PzM",
+			"time" : "Everyday",
+			"style" : "Look"
 		},
-		"result1": {
+		{
 			"title": "edgy",
 			"imageURL": "assets/pics/pic1.jpg",
 			"steps": ["1. Apply foundation all over face",
@@ -23,9 +26,11 @@
 				"7. Apply mascara",
 				"8. Apply dark lipstick"
 			],
-			"videoURL": "https://www.youtube.com/embed/YmhSge09PzM"
+			"videoURL": "https://www.youtube.com/embed/YmhSge09PzM",
+			"time" : "Day",
+			"style" : "Edgy"
 		},
-		"result2": {
+		{
 			"title": "casual",
 			"imageURL": "assets/pics/pic2.jpg",
 			"steps": ["1. Apply foundation all over face",
@@ -36,9 +41,11 @@
 				"6. Apply eyeliner to waterline if desired",
 				"7. Apply mascara"
 			],
-			"videoURL": "https://www.youtube.com/embed/W2asVll3OSU"
+			"videoURL": "https://www.youtube.com/embed/W2asVll3OSU",
+			"time" : "Day",
+			"style" : "Casual"
 		},
-		"result3": {
+		{
 			"title": "rogue",
 			"imageURL": "assets/pics/pic3.jpg",
 			"steps": ["1. Apply foundation all over face",
@@ -49,9 +56,11 @@
 				"6. Extend eyeliner out into a creative wing",
 				"7. Apply mascara to top and bottom lashes, using multiple coats to build"
 			],
-			"videoURL": "https://www.youtube.com/embed/pb7uCqAXsK4"
+			"videoURL": "https://www.youtube.com/embed/pb7uCqAXsK4",
+			"time" : "Day",
+			"style" : "Rogue"
 		},
-		"result4": {
+		{
 			"title": "glamorous",
 			"imageURL": "assets/pics/pic4.jpg",
 			"steps": ["1. Apply foundation all over face",
@@ -62,9 +71,11 @@
 				"6. Apply eyeliner, wing tip optional",
 				"7. Apply light-neutral lipstick shade"
 			],
-			"videoURL": "https://www.youtube.com/embed/AdpPDpM1tIA"
+			"videoURL": "https://www.youtube.com/embed/AdpPDpM1tIA",
+			"time" : "Day",
+			"style" : "Glamorous"
 		},
-		"result5": {
+		{
 			"title": "classic",
 			"imageURL": "assets/pics/pic5.jpg",
 			"steps": ["1. Apply foundation all over face",
@@ -76,9 +87,11 @@
 				"7. Apply mascara",
 				"8. Apply light-neutral lipstick shade"
 			],
-			"videoURL": "https://www.youtube.com/embed/4Hz-uq1oS0E"
+			"videoURL": "https://www.youtube.com/embed/4Hz-uq1oS0E",
+			"time" : "Day",
+			"style" : "Classic"
 		},
-		"result6": {
+		{
 			"title": "natural",
 			"imageURL": "assets/pics/pic6.jpg",
 			"steps": ["1. Apply foundation all over face",
@@ -87,9 +100,11 @@
 				"4. Apply skin tone color eyeshadow",
 				"5. Apply mascara"
 			],
-			"videoURL": "https://www.youtube.com/embed/25wZ8AAt3Bc&t=38s"
+			"videoURL": "https://www.youtube.com/embed/25wZ8AAt3Bc&t=38s",
+			"time" : "Day",
+			"style" : "Natural"
 		},
-		"result7": {
+		{
 			"title": "edgy",
 			"imageURL": "assets/pics/pic7.jpg",
 			"steps": ["1. Apply foundation all over face",
@@ -101,9 +116,11 @@
 				"7. Apply mascara",
 				"8. Apply dark lipstick"
 			],
-			"videoURL": "https://www.youtube.com/embed/C7cm65Flsns"
+			"videoURL": "https://www.youtube.com/embed/C7cm65Flsns",
+			"time" : "Night",
+			"style" : "Edgy"
 		},
-		"result8": {
+		{
 			"title": "casual",
 			"imageURL": "assets/pics/pic8.JPG",
 			"steps": ["1. Apply foundation all over face",
@@ -114,9 +131,11 @@
 				"6. Apply eyeliner to waterline if desired",
 				"7. Apply mascara"
 			],
-			"videoURL": "https://www.youtube.com/embed/1jR5VF-mnCI"
+			"videoURL": "https://www.youtube.com/embed/1jR5VF-mnCI",
+			"time" : "Night",
+			"style" : "Casual"
 		},
-		"result9": {
+		{
 			"title": "rogue",
 			"imageURL": "assets/pics/pic9.jpg",
 			"steps": ["1. Apply foundation all over face",
@@ -127,9 +146,11 @@
 				"6. Extend eyeliner out into a creative wing",
 				"7. Apply mascara to top and bottom lashes, using multiple coats to build"
 			],
-			"videoURL": "https://www.youtube.com/embed/XIbhoWaIxcc"
+			"videoURL": "https://www.youtube.com/embed/XIbhoWaIxcc",
+			"time" : "Night",
+			"style" : "Rogue"
 		},
-		"result10": {
+		{
 			"title": "glamorous",
 			"imageURL": "assets/pics/pic10.jpg",
 			"steps": ["1. Apply foundation all over face",
@@ -140,9 +161,11 @@
 				"6. Apply eyeliner, wing tip optional",
 				"7. Apply light-neutral lipstick shade"
 			],
-			"videoURL": "https://www.youtube.com/embed/cgMQJKNDs7o"
+			"videoURL": "https://www.youtube.com/embed/cgMQJKNDs7o",
+			"time" : "Night",
+			"style" : "Glamorous"
 		},
-		"result11": {
+		{
 			"title": "classic",
 			"imageURL": "assets/pics/pic11.JPG",
 			"steps": ["1. Apply foundation all over face",
@@ -154,9 +177,11 @@
 				"7. Apply mascara",
 				"8. Apply light-neutral lipstick shade"
 			],
-			"videoURL": "https://www.youtube.com/embed/dIasRNyldvk"
+			"videoURL": "https://www.youtube.com/embed/dIasRNyldvk",
+			"time" : "Night",
+			"style" : "Classic"
 		},
-		"result12": {
+		{
 			"title": "natural",
 			"imageURL": "assets/pics/pic12.jpg",
 			"steps": ["1. Apply foundation all over face",
@@ -165,6 +190,9 @@
 				"4. Apply skin tone color eyeshadow",
 				"5. Apply mascara"
 			],
-			"videoURL": "https://www.youtube.com/embed/ceZnAQcc_G4"
+			"videoURL": "https://www.youtube.com/embed/ceZnAQcc_G4",
+			"time" : "Night",
+			"style" : "Natural"
 		}
-	}
+	]
+}

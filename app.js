@@ -1,4 +1,5 @@
 var output = require('./output.json');
+var browse = require('./browse.json');
 var express = require('express');
 var fs = require('fs');
 var handlebars = require('express3-handlebars')
@@ -98,6 +99,12 @@ app.get('/signup', function (req, res) {
 
 app.get('/home', function (req, res) {
   res.render('home')
+})
+
+app.get('/browse', function (req,res) {
+  res.render('browse', {
+    'results': browse.results
+  })
 })
 
 
