@@ -40,3 +40,20 @@ body{
 .material-icons {
     vertical-align: -14%
 }
+
+.full-width {
+  -webkit-appearance: none;
+  height: 60px;
+  background-color: #FAD4D8;
+  margin-top: 60px;
+  margin-bottom: 2px;
+  width: 380px;
+  border-radius: 0;
+  font-family: 'Dancing Script', cursive;
+}
+
+#header-title {
+  font-size: 30px;
+  font-family: 'Pacifico', cursive;
+  color: #FFF ;
+}

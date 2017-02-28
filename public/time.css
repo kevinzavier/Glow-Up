@@ -29,14 +29,14 @@ body{
 	-webkit-appearance: none;
 	height: 60px;
 	background-color: black;
-	margin-top: 100px;
+	margin-top: 40px;
 	margin-bottom: 2px;
 	width: 380px;
 	border-radius: 0;
 }
 
 footer {
-	margin-top: 58%;
+	margin-top: 60%;
 }
 
 .material-icons {
