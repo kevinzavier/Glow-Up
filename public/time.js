@@ -1,4 +1,10 @@
 $(document).ready(function() {
+	var back = localStorage.getItem('back');
+	if(back=='true'){
+		showOccasion();
+		showStyle();
+	}
+
 	$("#style").click(function(e) {
 
 		var text = $(e.target).text();
