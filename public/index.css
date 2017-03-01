@@ -23,7 +23,7 @@
   font-size: 30px;
 }
 
-.header {
+.text-center {
   text-align: center;
 }
 #profile-button {
@@ -52,8 +52,15 @@ body{
   font-family: 'Dancing Script', cursive;
 }
 
+.glyphicon-log-out {
+  color: white;
+  font-size: 35px;
+  margin-left: 85%;
+  margin-top: 3%;
+}
+
 #header-title {
-  font-size: 30px;
+  font-size: 50px;
   font-family: 'Pacifico', cursive;
   color: #FFF ;
 }
