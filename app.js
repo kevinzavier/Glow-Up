@@ -110,11 +110,11 @@ app.get('/home', function (req, res) {
   res.render('homepage_A')
 })
 
-app.get('/path/to/page_A', function (req, res) {
+app.get('/path_to_page_A', function (req, res) {
   res.render('homepage_A')
 })
 
-app.get('/path/to/page_B', function (req, res) {
+app.get('/path_to_page_B', function (req, res) {
   res.render('homepage_B')
 })
 
