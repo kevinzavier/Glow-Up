@@ -107,10 +107,10 @@ app.get('/signup', function (req, res) {
 
 
 app.get('/home', function (req, res) {
-  res.render('home_A')
+  res.render('homepage_A')
 })
 app.get('/home_B', function (req, res) {
-  res.render('home_B')
+  res.render('homepage_B')
 })
 
 app.get('/browse', function (req,res) {
