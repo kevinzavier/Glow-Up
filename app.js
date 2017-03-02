@@ -109,6 +109,9 @@ app.get('/signup', function (req, res) {
 app.get('/home', function (req, res) {
   res.render('home')
 })
+app.get('/home2', function (req, res) {
+  res.render('home2')
+})
 
 app.get('/browse', function (req,res) {
   res.render('browse', {

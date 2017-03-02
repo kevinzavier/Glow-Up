@@ -32,6 +32,13 @@
   font-size: 30px;
 }
 
+.glyphicon-log-out {
+  color: white;
+  font-size: 35px;
+  margin-left: 85%;
+  margin-top: 3%;
+}
+
 body{
   font-family: 'Indie Flower', cursive;
   background-color: #000;
@@ -52,7 +59,7 @@ body{
 }
 
 #header-title {
-  font-size: 30px;
+  font-size: 50px;
   font-family: 'Pacifico', cursive;
   color: #FFF ;
 }
