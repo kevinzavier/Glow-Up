@@ -101,6 +101,7 @@
 		document.getElementById("header-title").innerHTML = "Time";
 		document.getElementById("back").style.display = "none";
 		$("#nxt").attr("onclick", "showOccasion()");
+		$("#nxt span").text("Next");
 	}
 	function showOccasion() {
 		document.getElementById("time").style.display = "none";
@@ -110,6 +111,7 @@
 		document.getElementById("back").style.display = "initial";
 		$("#back").attr("onclick", "showTime()");
 		$("#nxt").attr("onclick", "showStyle()");
+		$("#nxt span").text("Next");
 	}
 	function showStyle() {
 		document.getElementById("occasion").style.display = "none";
