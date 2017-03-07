@@ -1,24 +1,29 @@
 body{
-	background-color: #FAD4D8;
-		font-family: 'Dancing Script', cursive;
+	background-color: #282828;
+	font-family: 'Courgette', cursive;
+}
+
+h3 {
+	color: white;
 }
 
 ul {
 	list-style: none;
 }
+
 .header {
 	display: inline;
 }
 
 #left-arrow {
-	color: black;
+	color: white;
 	font-size: 30px;
 	margin-top: 50px;
 	margin-left: 8%;
 }
 
 #home {
-	color: black;
+	color: white;
 	font-size: 25px;
 	margin-left: 65%;
 }
@@ -51,12 +56,15 @@ ul {
 	border-radius: 0;
 	margin-top: 7%;
 }
-#header-title{
-	font-family: 'Lora', serif;
-
-
-}
 
 .material-icons {
 	vertical-align: -14%;
+}
+
+.step {
+	color: white;
+}
+
+#whited {
+	color: #ff6a80;
 }

@@ -18,8 +18,29 @@
 	height: 20%;
 }
 
+h2 {
+	color: white;
+}
+
 #imgSmall {
 	float: left;
 	width: 50px;
 	height: 50px;
+}
+
+.btn-primary {
+	border-color: #ff6a80;
+	background-color: #ff6a80 !important
+}
+
+.btn-primary:active {
+	background-color: #E30B5D !important;
+}
+
+.btn-primary:hover {
+	background-color: #E30B5D !important;
+}
+
+.btn-primary:focus {
+	background-color: #E30B5D !important;
 }

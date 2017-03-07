@@ -1,5 +1,6 @@
 body{
-	background-color: #383838;
+	background-color: #282828;
+	font-family: 'Courgette', cursive;
 }
 
 #header-title {
@@ -49,9 +50,10 @@ body{
 }
 
 .full-width {
+	border-radius: 0;
 	height: 60px;
 	width: 100%;
-	background-color: #DE5D83;
+	background-color: #FFB6C1;
 	color: #000;
 	position: absolute;
 	bottom: 0;

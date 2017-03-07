@@ -1,44 +1,70 @@
 body{
-	background-color: #FAD4D8;
-	  font-family: 'Dancing Script', cursive;
+	background-color: #282828;
+	font-family: 'Courgette', cursive;
 }
+
 .header {
-	display: inline;
+	text-align: center;
+	width: 100%;
+	display: inline-block;
+}
+
+#centered {
+	text-align: center;
 }
 
 #header-title {
+	color: white;
+	margin-left: 20px;
 	display: inline-block;
-	margin-left: 21%;
 }
 
 #home {
-	color: black;
+	color: white;
 	font-size: 30px;
 	margin-top: 50px;
-	margin-left: 50px;
+	margin-left: 45px;
 }
 
 #back {
-	color: black;
+	color: white;
 	font-size: 30px;
 	margin-top: 50px;
-	margin-left: 8%;
+	margin-right: 20px;
 }
 
 .full-width {
-	-webkit-appearance: none;
 	height: 60px;
-	background-color: black;
+	background-color: #ff6a80;
 	margin-top: 40px;
-	margin-bottom: 2px;
+	margin-bottom: 6px;
 	width: 380px;
 	border-radius: 0;
 }
 
 footer {
-	margin-top: 60%;
+	position: absolute;
+	bottom: 0;
+	margin-bottom: -12px;
+	margin-left: -12px;
 }
 
 .material-icons {
 	vertical-align: -14%;
+}
+
+.btn-primary {
+	border-color: #ff6a80;
+}
+
+.btn-primary:active {
+	background-color: #E30B5D !important;
+}
+
+.btn-primary:hover {
+	background-color: #E30B5D !important;
+}
+
+.btn-primary:focus {
+	background-color: #E30B5D !important;
 }
