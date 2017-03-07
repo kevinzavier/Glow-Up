@@ -1,7 +1,28 @@
+'use strict';
 // Get all of our friend data
 var output = require('../output.json');
 var data = require('../data.json');
 
+// trying to do google analytics
+function initializePage() {
+	$(".project").click(projectClick);
+}
+function projectClick(e) { 
+    // prevent the page from reloading      
+    e.preventDefault();
+    // In an event handler, $(this) refers to      
+    // the object that triggered the event      
+    ga("send", "event", 'look', 'click');
+}
+exports.getLooks = function(req, res){
+  	res.render('glowup', projects);
+  	projects["same"] = true;
+};
+
+exports.browseAll = function(req,res){
+	res.render('browse', projects);
+	projects["same"] = false;
+};
 
 exports.view = function(req, res){
 

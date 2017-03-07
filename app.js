@@ -124,6 +124,9 @@ app.get('/browse', function (req,res) {
   })
 })
 
+app.get('/homepage_A', glowup.getLooks);
+app.get('/homepage_B', glowup.browseAll);
+
 
 app.listen(port, function () {
   console.log('App is running on port 3000')
