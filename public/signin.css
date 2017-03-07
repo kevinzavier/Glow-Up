@@ -1,15 +1,23 @@
 body{
-	background-color: #000;
-}
-
-.header {
-
+	background-color: #383838;
 }
 
 #header-title {
 	font-size: 60px;
 	font-family: 'Pacifico', cursive;
-	color: #FFF	;
+	color: #FFF;
+}
+
+#email-title {
+	margin-left: 4em;
+	margin-top: 6em;
+	color: white;
+}
+
+#password-title {
+	margin-left: 4em;
+	margin-top: 20%;
+	color: white;
 }
 
 #home {
@@ -19,25 +27,36 @@ body{
 	margin-left: 50px;
 }
 
-.full-width {
-	height: 60px;
-	background-color: #FAD4D8;
-	margin-top: 100px;
-	margin-bottom: 2px;
-	width: 380px;
-	border-radius: 0;
-	color: #000;
-}
 .label{
 	width: 80%;
 }
 .regular{
 	font-family: Arial;
 }
-footer {
-	margin-top: 100px;
+
+#txtEmail {
+	margin-left: 4em;
+	width: 70%;
+}
+
+#txtPassword {
+	margin-left: 4em;
+	width: 70%;
 }
 
 .material-icons {
 	vertical-align: -14%;
+}
+
+.full-width {
+	height: 60px;
+	width: 100%;
+	background-color: #DE5D83;
+	color: #000;
+	position: absolute;
+	bottom: 0;
+}
+
+#login {
+	color: white;
 }
