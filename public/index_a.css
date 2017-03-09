@@ -3,7 +3,7 @@
   height: 200px;
   border-radius: 100%;
   font-family: 'Dancing Script', cursive;
-  background-color: #FFB6C1;
+  background-color: #ff6a80;
 
 }
 #Browse {
@@ -11,7 +11,7 @@
   height: 200px;
   border-radius: 100%;
   font-family: 'Dancing Script', cursive;
-  background-color: #FFB6C1;
+  background-color: #ff6a80;
 
 }
 .white {
@@ -42,7 +42,7 @@
 
 body{
   font-family: 'Indie Flower', cursive;
-  background-color: #000;
+  background-color: #282828;
 }
 
 .material-icons {
