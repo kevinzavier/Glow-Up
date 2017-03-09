@@ -88,7 +88,7 @@
 	</div>
 	<footer>
 		<a href = "#" onclick="showOccasion()" id="nxt">
-			<button id="nxtbut" class ="btn btn-primary btn-lg btn-block">
+			<button id="nxtbut" class ="btn btn-primary btn-lg btn-block red-border">
 				<span> Next </span>
 			</button>
 		</a>
@@ -107,7 +107,7 @@
 	function showOccasion() {
 		$("#nxtbut").remove();
 		$("#nxt").append('<button id="nxtbut">\
-				<span class ="btn btn-primary btn-lg btn-block"> Next </span>	\
+				<span class ="btn btn-primary btn-lg btn-block red-border"> Next </span>	\
 			</button>');
 
 		document.getElementById("time").style.display = "none";
@@ -122,7 +122,7 @@
 	function showStyle() {
 		$("#nxtbut").remove();
 		$("#nxt").append('<button id="nxtbut">\
-				<span class ="btn btn-primary btn-lg btn-block"> Next </span>	\
+				<span class ="btn btn-primary btn-lg btn-block red-border"> Next </span>	\
 			</button>');
 		document.getElementById("occasion").style.display = "none";
 		document.getElementById("style").style.display = "initial";

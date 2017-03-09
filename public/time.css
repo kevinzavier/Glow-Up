@@ -69,12 +69,15 @@ footer {
 	width: 100%;
 }
 
+
 #nxtbut {
-	margin-top: 20px;
 	height: 60px;
 	background-color: #ff6a80;
 	margin-top: 25px;
 }
+
+
+
 
 .btn-primary {
 	height: 60px;
@@ -92,4 +95,10 @@ footer {
 
 .btn-primary:focus {
 	background-color: #E30B5D !important;
+}
+
+.red-border{
+	border-color: #E30B5D;
+	border-width: medium;
+	border-style: solid;
 }

@@ -106,11 +106,11 @@ app.get('/signup', function (req, res) {
 })
 
 
-app.get('/home', function (req, res) {
+//TODO Switch these for AB TESTING!
+app.get('/home_A', function (req, res) {
   res.render('homepage_A')
 })
-
-app.get('/home_B', function (req, res) {
+app.get('/home', function (req, res) {
   res.render('homepage_B')
 })
 
