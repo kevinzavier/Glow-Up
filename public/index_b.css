@@ -5,10 +5,11 @@
   border-radius: 100%;
   font-family: 'Courgette', cursive;
   background-color: #ff6a80;
+  color: white;
 
 }
 .white {
-  color: #FFF;
+  color: white;
 }
 .material-icons {
     vertical-align: -14%
@@ -29,7 +30,7 @@
 }
 #profile-button {
   /*for 375x612 */
-  color: #FFF;
+  color: white;
   font-size: 30px;
 }
 
@@ -41,7 +42,7 @@
 }
 
 body{
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Courgette', cursive;
   background-color: #282828;
 }
 
@@ -50,17 +51,18 @@ body{
 }
 
 .full-width {
-  -webkit-appearance: none;
   height: 60px;
   background-color: #ff6a80;
   position:absolute;bottom:0;
   width: 380px;
   border-radius: 0;
   font-family: 'Courgette', cursive;
+  font-size: 20px;
+  color: white;
 }
 
 #header-title {
   font-size: 50px;
   font-family: 'Pacifico', cursive;
-  color: #FFF ;
+  color: white ;
 }

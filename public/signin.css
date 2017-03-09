@@ -4,6 +4,7 @@ body{
 }
 
 #header-title {
+	margin-top: 50px;
 	font-size: 60px;
 	font-family: 'Pacifico', cursive;
 	color: #FFF;
