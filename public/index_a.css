@@ -67,6 +67,12 @@ body{
   margin-top: 3%;
 }
 
+.red-border{
+	border-color: #E30B5D;
+	border-width: thin;;
+	border-style: solid;
+}
+
 #header-title {
   font-size: 50px;
   font-family: 'Pacifico', cursive;

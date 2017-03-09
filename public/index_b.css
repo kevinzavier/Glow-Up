@@ -82,3 +82,9 @@ body{
 .btn-primary:focus {
   background-color: #E30B5D !important;
 }
+
+.red-border{
+	border-color: #E30B5D;
+	border-width: thin;
+	border-style: solid;
+}
