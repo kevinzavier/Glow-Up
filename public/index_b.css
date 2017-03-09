@@ -3,7 +3,7 @@
   height: 300px;
   border-radius: 100%;
   font-family: 'Courgette', cursive;
-  background-color: #FAD4D8;
+  background-color: #FFB6C1;
 
 }
 .white {
@@ -51,7 +51,7 @@ body{
 .full-width {
   -webkit-appearance: none;
   height: 60px;
-  background-color: #FAD4D8;
+  background-color: #FFB6C1;
   position:absolute;bottom:0;
   width: 380px;
   border-radius: 0;
