@@ -73,7 +73,9 @@ footer {
 #nxtbut {
 	height: 60px;
 	background-color: #ff6a80;
-	margin-top: 25px;
+	position: relative !important;
+	margin-top: 50px !important;
+
 }
 
 
