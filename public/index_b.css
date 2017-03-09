@@ -66,3 +66,19 @@ body{
   font-family: 'Pacifico', cursive;
   color: white ;
 }
+
+.btn-primary {
+  border-color: #ff6a80;
+}
+
+.btn-primary:active {
+  background-color: #E30B5D !important;
+}
+
+.btn-primary:hover {
+  background-color: #E30B5D !important;
+}
+
+.btn-primary:focus {
+  background-color: #E30B5D !important;
+}
