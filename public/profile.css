@@ -9,6 +9,9 @@ h1 {
 	text-align: center;
 	color: white;
 }
+h2 {
+	color: white;
+}
 
 li {
 	list-style: none;
@@ -27,7 +30,7 @@ li {
 }
 
 #profile {
-	color: black;
+	color: #ff6a80;
 	font-size: 40px;
 	margin-left: 90px;
 }
@@ -61,7 +64,7 @@ footer {
 .footerbutton {
 	width: 100%;
 	height: 60px;
-	background-color: black;
+	background-color: #ff6a80;
 	text-align: center;
 }
 
