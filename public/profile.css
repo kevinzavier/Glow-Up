@@ -14,12 +14,14 @@ p {
 
 h1 {
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 30px;
 	text-align: center;
 	color: white;
 }
 h2 {
 	color: white;
+	font-size: 20px;
+
 }
 
 li {
@@ -46,6 +48,7 @@ li {
 
 .questions {
 	margin-top: 30px;
+
 }
 
 .question {
