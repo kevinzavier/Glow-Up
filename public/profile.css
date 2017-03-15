@@ -78,6 +78,8 @@ footer {
 	height: 60px;
 	background-color: #ff6a80;
 	text-align: center;
+	position: absolute;
+	bottom: 0;
 }
 
 #foottext {
