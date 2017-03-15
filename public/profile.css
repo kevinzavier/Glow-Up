@@ -1,6 +1,15 @@
 body{
+	color: white;
 	background-color: #282828;
 	font-family: 'Courgette', cursive;
+}
+
+p {
+	color: white;
+}
+
+#reduced {
+	margin-top: 0px;
 }
 
 h1 {
@@ -25,7 +34,7 @@ li {
 #left-arrow {
 	color: white;
 	font-size: 30px;
-	margin-top: 50px;
+	margin-top: 30px;
 	margin-left: 50px;
 }
 
@@ -36,11 +45,11 @@ li {
 }
 
 .questions {
-	margin-top: 50px;
+	margin-top: 30px;
 }
 
 .question {
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 	font-size: 20px;
 	color: white;
 }
@@ -58,7 +67,7 @@ li {
 }
 
 footer {
-	margin-top: 50px;
+	margin-top: 30px;
 }
 
 .footerbutton {
