@@ -105,6 +105,10 @@ app.get('/signup', function (req, res) {
   res.render('signup')
 })
 
+app.get('/profile', function (req, res) {
+  res.render('profile')
+})
+
 
 //TODO Switch these for AB TESTING!
 app.get('/home_A', function (req, res) {
